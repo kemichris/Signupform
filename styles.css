@@ -181,7 +181,7 @@ p a {
     }
 
     .first-p {
-        width: 90%;
+        width: auto;
         text-align: justify;   
     }
 
