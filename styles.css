@@ -172,7 +172,7 @@ p a {
 @media screen and (max-width: 500px) {
 
     .form-container {
-        width: 30.2rem;
+        width: auto;
        
     }
 
@@ -181,7 +181,7 @@ p a {
     }
 
     .first-p {
-        width: auto;
+        width: 22rem;
         text-align: justify;   
     }
 
