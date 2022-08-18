@@ -1,102 +1,110 @@
 body {
-    
     margin: 0;
-}
-
-.backgroundImage {
-    width: 32rem;
-    height: 39em;
-    
 }
 
 h1 {
     color: white;
     font-family: 'Lobster', cursive;
-    position: relative;
-    left: 14rem;
-    bottom: 8rem;
     font-size: 3rem;
 }
 
 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
     padding-top: 20px;
 }
 
-
-.logo {
-    width: 5rem;
-    margin-left: 9rem;
-    margin-top: 0.8rem;
-
-}
-
-.logo-section {
-    position: absolute;
-    bottom: 20rem;
-    background-color: black;
-    opacity: 0.6;
-    width: 32rem;
-    height: 3.5cm;
-}
-
-.form-container {
-    background-color: rgb(241, 245, 248);
-    width: 62%;
-    position: absolute;
-    left: 31.8rem;
-    bottom: 1px;
-    height: 40em;
-}
-
-.inner-contianer {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
-
-p, h3, button {
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
 .first-p {
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 30px;
     font-weight: bold;
     width: 59%;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-weight: bold;
+}
 
-table {
-    border-spacing: 30px;
+
+.container {
+    display: flex;
+}
+
+.background-container {
+    background-image: url(/background.avif);
+    width: 32rem;
+    height: 39rem;
+}
+
+.form-container {
+    width: 54rem;
+    height: 39rem;
+    background-color: rgb(241, 245, 248);
+}
+
+.logo-container {
+    display: flex;
+    background-color: black;
+    opacity: 0.6;
+    margin-top: 10rem;
+}
+
+img {
+    width: 5rem;
+    margin-left: 8rem;
+    padding: 10px 0;
+    
+}
+
+.inner-form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 40px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+span, input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+
 }
 
 input {
     border: 1px solid #e5e7eb;
 }
 
-
 input:focus {
     outline: none;
     border: 1px solid blue;
 }
 
-p a {
-    text-decoration: none;
-    color: red;
+.secondLine {
+    margin-left: 20px;
 }
 
-button {
+.btn {
     margin-top: 1rem;
     padding: 8px 40px;
     border-radius: 8%;
     color: white;
-    background-color: green;
+    background-color: #596d48;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-button:hover {
-    background-color: rgb(114, 173, 114);
+.btn:hover {
+    background-color: green;
+}
+
+
+p a {
+    text-decoration: none;
+    color: red;
 }
