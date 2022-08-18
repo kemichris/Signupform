@@ -34,7 +34,7 @@ p {
 }
 
 .background-container {
-    background-image: url(/background.avif);
+    background-image: url(background.avif);
     width: 32rem;
     height: 39rem;
 }
