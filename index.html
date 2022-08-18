@@ -10,53 +10,52 @@
 
 </head>
 <body>
-    <img class="backgroundImage" src="background.avif" alt="">
-    <div class="logo-section">
-        <img class="logo" src="odin-lined.png" alt="">
-        <h1>ODIN</h1>
-    </div>
-
-    <div class="form-container">
-        <p class="first-p">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
-        <p>You know you want to.</p>
-        <div class="inner-contianer">
-            <table>
-            <form action="">
-                <thead><h3>Let's do this!</h3></thead>
-                <tr>
-                    <td>
-                        FIRST NAME <br>
-                        <input type="text" size="40" name="First Name" id=""><br>
-                    </td>
-                    <td>
-                        LAST NAME <br>
-                        <input type="text" size="40" name="Last Name" id="">
-                    </td>
-                <tr>
-                    <td>
-                        EMAIL <br>
-                        <input type="email" size="40" name="" id="">
-                    </td>
-                    <td>
-                        PHONE NUMBER <br>
-                        <input type="tel" size="40" name="phone Number" id="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        PASSWORD <br>
-                        <input type="password" size="40" name="password" id="password">
-                    </td>
-                    <td>
-                        CONFIRM PASSWORD <br>
-                        <input type="password" size="40" name="password" id="confirm-password">
-                    </td>
-                </tr> 
-            </form>
-            </table>
+    <div class="container">
+      <div class="background-container">
+        <div class="logo-container">
+            <img src="/odin-lined.png" alt="">
+            <h1>ODIN</h1>
         </div>
-        <button>Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+
+      <div class="form-container">
+        <p class="first-p">This is not a real online service! You know you need something like this in your 
+            life to help you realize your deepest dreams. Sign up now to get started</p>
+        <p>You know you want to</p> 
+        
+        <form action="mailto:ekeminichristopher123@gmail.com">
+            <div class="inner-form">
+                <h3>Let's do this!</h3>
+                <div class="container-flex">
+                    <div class="firstLine">
+                        <span>FIRST NAME</span><br>
+                        <input type="text" size="30" placeholder="firstName" id=""><br>
+                        <br>
+                        <span>EMAIL</span><br>
+                        <input type="email" size="30" placeholder="email" id=""><br>
+                        <br>
+                        <span>PASSWORD</span><br>
+                        <input type="password" size="30" placeholder="password" required id="">
+                    </div>
+                    <div class="secondLine">
+                        <span>LAST NAME</span><br>
+                        <input type="text" size="30" placeholder="LastName" id=""><br>
+                        <br>
+                        <span>PHONE NUMBER</span><br>
+                        <input type="tel" size="30" placeholder="number" id=""><br>
+                        <br>
+                        <span>CONFIRM PASSWORD</span><br>
+                        <input type="password" size="30" placeholder="confirmPassword" required id="">
+                    </div>
+                </div>
+
+                <input class="btn" type="submit" value="Creat Account">
+                
+                
+            </div>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </form>
+      </div>
     </div>
 </body>
 </html>
