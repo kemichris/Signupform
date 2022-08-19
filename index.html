@@ -13,7 +13,7 @@
     <div class="container">
       <div class="background-container">
         <div class="logo-container">
-            <img src="odin-lined.png" alt="LOGO">
+            <img src="/odin-lined.png" alt="">
             <h1>ODIN</h1>
         </div>
       </div>
@@ -28,32 +28,47 @@
                 <h3>Let's do this!</h3>
                 <div class="container-flex">
                     <div class="firstLine">
-                        <span>FIRST NAME</span><br>
-                        <input type="text" size="30" placeholder="firstName" id=""><br>
-                        <br>
-                        <span>EMAIL</span><br>
-                        <input type="email" size="30" placeholder="email" id=""><br>
-                        <br>
-                        <span>PASSWORD</span><br>
-                        <input type="password" size="30" placeholder="password" required id="">
+                        <div>
+                            <span>FIRST NAME</span><br>
+                            <input type="text" size="30" placeholder="firstName" id=""><br>
+                            <br>
+                        </div>
+                        <div>
+                            <span class="lastname">LAST NAME</span><br>
+                            <input class="lastname" type="text" size="30" placeholder="LastName" id=""><br>
+                            <br>
+                        </div>
                     </div>
                     <div class="secondLine">
-                        <span>LAST NAME</span><br>
-                        <input type="text" size="30" placeholder="LastName" id=""><br>
-                        <br>
-                        <span>PHONE NUMBER</span><br>
-                        <input type="tel" size="30" placeholder="number" id=""><br>
-                        <br>
-                        <span>CONFIRM PASSWORD</span><br>
-                        <input type="password" size="30" placeholder="confirmPassword" required id="">
+                        <div>
+                            <span>EMAIL</span><br>
+                            <input type="email" size="30" placeholder="email" id=""><br>
+                           <br>
+                        </div>
+                        <div>
+                            <span class="phone">PHONE NUMBER</span><br>
+                            <input class="phone" type="tel" size="30" placeholder="number" id=""><br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="thirdLine">
+                        <div>
+                            <span>PASSWORD</span><br>
+                            <input type="password" size="30" placeholder="password" id="password" required><br>
+                            <br>
+                        </div>
+                        <div>
+                            <span class="confirm">CONFIRM PASSWORD</span><br>
+                            <input class="confirm" type="password" size="30" placeholder="confirmPassword" id="confirmPassword" required>
+                        </div>
                     </div>
                 </div>
 
-                <input class="btn" type="submit" value="Creat Account">
+                <input class="btn" type="submit" value="Create Account">
                 
                 
             </div>
-            <p>Already have an account? <a href="">Log in</a></p>
+            <p class="last-p">Already have an account? <a href="">Log in</a></p>
         </form>
       </div>
     </div>
