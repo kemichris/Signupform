@@ -65,7 +65,7 @@ img {
     margin-top: 40px;
 }
 
-.container-flex {
+.firstLine, .secondLine, .thirdLine {
     display: flex;
 }
 
@@ -84,9 +84,10 @@ input:focus {
     border: 1px solid blue;
 }
 
-.secondLine {
-    margin-left: 20px;
+.lastname, .phone, .confirm {
+    margin-left: 40px;
 }
+
 
 .btn {
     margin-top: 1rem;
@@ -176,6 +177,10 @@ p a {
        
     }
 
+    .lastname, .phone, .confirm {
+        margin-left: 30px;
+    }
+
     img {
         margin-left: 11rem;
     }
@@ -185,13 +190,10 @@ p a {
         text-align: justify;   
     }
 
-    .container-flex {
+    .firstLine, .secondLine, .thirdLine {
     display: list-item;
     }
 
-    .secondLine {
-    margin-left: 0;
-    }
 
     .last-p {
         padding-bottom: 3rem;
